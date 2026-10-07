@@ -1,0 +1,46 @@
+button{
+    background-color: rgb(40, 30, 160); 
+    border: none;
+    color: white;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none; 
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+button:hover {
+    background-color: rgb(4, 4, 34);
+    color: white;
+} 
+h2{
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+a{
+    text-decoration: none;
+    color:rgb(123, 118, 118);
+    font-size: 15px;
+}
+.p1{
+    color: rgb(163, 12, 12);
+}
+#p2{
+    color: rgb(139, 47, 185);
+}
+a:hover{
+    color: rgb(149, 107, 170);
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    
+}
+nav{
+    display: flex;
+    justify-content: end;
+
+    gap: 30px;
+}
